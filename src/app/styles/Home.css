@@ -1,0 +1,270 @@
+.logo {
+  width: 32px;
+  height: 27px;
+}
+.bg {
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  width: 100%;
+}
+.bg-white {
+  background: #fff;
+  padding: 15px 10px;
+  border-radius: 0px 0px 20px 20px;
+}
+.list {
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+}
+.list-text {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  gap: 3px;
+  color: white;
+  font-weight: 600;
+}
+.button {
+  width: 155px;
+  right: 15px;
+}
+.title {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lorem {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: white;
+}
+.btn-main {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+.btn-large {
+  padding: 12px 24px;
+}
+.btn-white {
+  background: #fff;
+  color: #d15b3e;
+}
+.bg-main {
+  background-color: #d15b3e !important;
+  width: 100%;
+  height: 209px;
+  padding: 50px 100px;
+}
+.bg-wheat {
+  background: #f9f9f9;
+  margin-top: 200px;
+  padding-bottom: 100px;
+}
+.sub-text {
+  font-size: 21px;
+  color: #fff;
+  font-weight: 400;
+}
+.text {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: Abril Fatface;
+  margin-bottom: 10px;
+}
+.plus {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+.italic {
+  font: italic;
+  font-size: 22px;
+  font-family: Open Sans;
+  margin: 10px 0;
+  color: white;
+  width: 65%;
+}
+.third {
+  background: #d15b3e;
+  width: 420px;
+  height: 276px;
+  padding: 35px 20px 35px 50px;
+  border-radius: 30px;
+}
+.box {
+  width: 234px;
+  height: 150px;
+  background: #d15b3e;
+  border-radius: 30px;
+  padding: 25px;
+  position: absolute;
+  margin-top: 385px;
+  margin-left: 50px;
+  z-index: 9;
+}
+.image3 {
+  width: 370px;
+  height: 501px;
+  border-radius: 30px;
+}
+.image4 {
+  position: absolute;
+
+  margin-top: -200px;
+  left: 220px !important;
+}
+.lern {
+  background: #d15b3e;
+  height: 276px;
+  padding: 35px 20px 35px 50px;
+  border-radius: 30px;
+}
+.sercive {
+  background: #d15b3e;
+  height: 300px;
+  padding: 50px;
+  border-radius: 30px;
+}
+.s-heading {
+  font-size: 25px;
+  text-align: center;
+  font-family: Abril Fatface;
+  margin-top: 10px;
+}
+.sercive-l {
+  background: #f9f9f9;
+  height: 300px;
+  padding: 50px;
+  border-radius: 30px;
+  opacity: 0.8;
+}
+.btn-light {
+  padding: 12px 24px;
+  background: #ffa28b;
+}
+.bg-work {
+  background: #d15b3e;
+  padding: 100px;
+}
+.work-l {
+  background: #ffa28b;
+  height: 536px;
+  border-radius: 30px;
+  padding: 50px;
+}
+.work-italic {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Open Sans;
+  color: white;
+}
+.reviews {
+  background-color: #f9f9f9;
+  padding: 100px;
+}
+.pere {
+  position: absolute;
+  margin-left: 123px;
+  margin-top: 5px;
+}
+.shedow {
+  z-index: 99;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background: #fff;
+  height: 250px;
+  border-radius: 30px;
+  padding: 30px;
+}
+.star {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.primary {
+  font-family: Abril Fatface;
+  font-size: 21px;
+  font-weight: 400;
+}
+.s-text {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #6e6e6e;
+}
+.mt-5 {
+  margin-top: -5px;
+}
+.bg-text {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 400;
+  font-family: Abril Fatface;
+  line-height: 74px;
+  text-align: center;
+}
+.bg-image {
+  background-image: url("/assets/backgrond.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  padding: 100px 160px;
+  border-radius: 30px;
+}
+.bg-l {
+  background: #f9f9f9;
+  padding: 100px, 100px, 100px, 100px;
+  gap: 35px;
+}
+.c-title {
+  font-size: 25px;
+  font-family: Abril Fatface;
+  font-weight: 400;
+  line-height: 30px;
+}
+.c-image {
+  border-radius: 30px, 30px, 0px, 0px !important;
+  width: 100%;
+}
+.card {
+  background: #f9f9f9;
+  padding: 0px 20px 20px 20px;
+}
+.btn-larger {
+  padding: 10px 24px;
+}
+.footer {
+  background: #d15b3e;
+  padding: 100px 100px 30px 100px;
+  margin-top: 100px;
+  gap: 60px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.footer-link .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+.footer-title {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Abril Fatface;
+  color: #fff;
+}
+.last {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}

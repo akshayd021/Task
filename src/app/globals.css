@@ -1,33 +1,100 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.space-bw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spce-arround {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-24 {
+  font-size: 30px !important;
+}
+.font-bolder {
+  font-weight: 500;
+}
+.font-14 {
+  font-size: 14px;
+}
+.ml-50 {
+  margin-left: 49px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mt-30 {
+  margin-top: 30px !important;
+}
+.mt-10 {
+  margin-top: 10px !important;
+}
+.mt-20 {
+  margin-top: 20px !important;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.mt-50 {
+  margin-top: 50px !important;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.mt-70 {
+  margin-top: 70px !important;
+}
+.mx-5 {
+  margin: 0 5px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.color-white {
+  color: white !important;
+}
+.color-main {
+  color: "#D15B3E" !important;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-21 {
+  font-size: 21px;
+}
+.btn {
+  border-radius: 20px;
+  padding: 10px;
+}
+.small-text {
+  color: #d15b3e;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.color-gray {
+  color: gray;
+}
+.row {
+  display: flex;
+  flex-direction: row;
 }
